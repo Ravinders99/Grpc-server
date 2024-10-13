@@ -7,7 +7,7 @@ def run():
     # with grpc.insecure_channel('localhost:50051') as channel:
     #     stub = nobel_prize_pb2_grpc.NobelServiceStub(channel)
     # Replace 'localhost:50051' with your cloud endpoint
-    with grpc.insecure_channel('https://pocassignment1-dha2bsgubddsg0ek.canadacentral-01.azurewebsites.net/') as channel:
+    with grpc.insecure_channel('https://server-client-aahhh7ahbtcqhpcs.canadacentral-01.azurewebsites.net/') as channel:
         stub = nobel_prize_pb2_grpc.NobelServiceStub(channel)
 
 
